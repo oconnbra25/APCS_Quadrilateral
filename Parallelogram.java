@@ -5,6 +5,8 @@ class Parallelogram extends Quadrilateral
 		super(sideS, sideS, sideB, sideB);
 	}
 	
-	public getArea()
+	public int getArea()
 	{
-		
+		return sideS * sideB;
+	}
+}
